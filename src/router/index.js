@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import store from '../store'
-import HelloWorld from '../components/HelloWorld'
+import Main from '../components/Main'
 import Blank from '../components/Blank'
 
 Vue.use(VueRouter)
@@ -16,7 +16,7 @@ const routes = [
   {
     path: '/',
     name: "Index",
-    component: HelloWorld,
+    component: Main,
     meta : {
       title:"MY TITLE"
     }
