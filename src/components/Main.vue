@@ -34,4 +34,6 @@ import SlidingVerification from './SlidingVerification.vue'
 
 
 <style scoped lang="scss">
+
+
 </style>
